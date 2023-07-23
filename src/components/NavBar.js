@@ -11,7 +11,7 @@ const NavBar = () => {
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
         <Navbar.Brand href="#">Redux Toolkit</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+        {/* <Navbar.Toggle aria-controls="navbarScroll" /> */}
         <Nav>
           <Nav.Link to="/" as={Link}>
             Products
